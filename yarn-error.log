@@ -1,0 +1,41 @@
+Arguments: 
+  /data/data/com.termux/files/usr/bin/node /data/data/com.termux/files/usr/share/yarn/bin/yarn.js add typescript express jsonwebtoken mongooose dotenv uuid
+
+PATH: 
+  /data/data/com.termux/files/usr/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  17.9.0
+
+Platform: 
+  android arm
+
+Trace: 
+  Error: https://registry.yarnpkg.com/mongooose: Not found
+      at Request.params.callback [as _callback] (/data/data/com.termux/files/usr/share/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/data/data/com.termux/files/usr/share/yarn/lib/cli.js:140883:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/data/data/com.termux/files/usr/share/yarn/lib/cli.js:141855:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/data/data/com.termux/files/usr/share/yarn/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "api_rest_ts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
